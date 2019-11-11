@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Loan Calculator</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Simple Loan Calculator</h1>
+        </header>
+        <main>
+            <p>the simple loan Calculator will determone your estimated payments for different loan amounts, interest rates and terms</p>
+            <div class="calculator">
+                <h3 class="calheader">Simple loan Calculator</h3>
+                <form class="form">
+                        <label><span class="formatting">1</span>Loan Amount </label>
+                        <div class="gap">
+                            <span>$</span><input class="inputbox" type="text" id="amount"> 
+                        </div><br>
+                        <label><span class="formatting">2</span>Number of Years</label>
+                        <input class="inputbox" type="text" id="years"> <br>
+            
+                       <div class="center"> <input class="button" type="button" value="Calculate" id="Calculate"> </div>
+                    </form>
+            </div>
+            <div class="result">
+                <h3>Your Monthly Payments</h3>
+                <p>Base calculations</p>
+                <ul class="resultdisplay">
+                    <li>Loan Amount</li>
+                    <li>Interest Rates</li>
+                    <li>Number of years</li>
+                    <li>Monthly Payments</li>
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
