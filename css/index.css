@@ -33,7 +33,6 @@ body{
     background: linear-gradient(to bottom, #1e5799 0%,#2989d8 1%,#7db9e8 100%);
     color:white;
     padding: 1em;
-    
     border-radius: 0.5em;
 }
 .center{
@@ -50,10 +49,11 @@ body{
     border-radius: 1em;
 }
 .resultdisplay{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border-top: 0.01em solid #3c3c3c ;
 }
 .resultdisplay li{
     display: inline-block;
-    padding: 0.7em 2em;
+    padding: 0.7em 0em;
 }
